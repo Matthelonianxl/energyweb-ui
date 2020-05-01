@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - plugin-signer-default > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - semantic-ui-react > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/ui > react-redux > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/ui > redux > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/shared > redux-actions > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/ui > recharts > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-default > semantic-ui-react > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/api > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > react-redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/ui > @parity/shared > redux-actions > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - '@parity/ui > recharts > react-smooth > lodash':
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > recharts > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > semantic-ui-react > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/etherscan > @parity/api > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/shared > react-redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/shared > redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/shared > redux-actions > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > recharts > react-smooth > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/mobx > @parity/shared > react-redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/mobx > @parity/shared > redux > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
+    - plugin-signer-qr > @parity/ui > @parity/mobx > @parity/shared > redux-actions > lodash:
+        patched: '2020-05-01T01:43:38.287Z'
